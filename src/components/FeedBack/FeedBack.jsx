@@ -1,0 +1,37 @@
+import React from 'react'
+import './feedback.css'
+const FeedBack = () => {
+    return (
+        <div className='feed_heading'>
+            <div className='feed_data'>
+                <h2>WHAT people Says...</h2>
+                <div className='feed_blocks'>
+                    <div>
+                        <h4><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAB6CAMAAABHh7fWAAAAZlBMVEX///8AAADo6Ojw8PDKysrr6+v7+/vz8/P4+PhISEjW1tZ8fHzOzs4pKSkaGhrDw8M7Ozvi4uKmpqaWlpY2NjZ0dHRtbW0gICBkZGTc3NyFhYWQkJCzs7Otra28vLxRUVEMDAxcXFwtbe9+AAAEuUlEQVRoge1a29qiMAzkICIqntDf4y/6/i+5gqI0TZqJe7X7MffDtGk6SUujaMCAAQMG/GfIs+SBLMvNzHH6pKaTb3Szzay4xQ0Wxa5aWr6xrA5ly4zL+2lztOlOLkVMUFzXEHV9psz4NMIHPvKE2ynMEpWZVwuOWlywRRvvOHYLTXy+lZjlBlA+ivQGVSh2mxBztdSUp2WIH8e1vOT+Krs4h5UThf7ARaBWKrMIrVfKJhhBxVKXALOcytIzgM9rJ8pCPbEQtZGRN2BW7YAxRW0k3C28ec9R5oJfb5gfx3TwshdQ1GNO+geXLt09luHMeMYor6FMeeHgUINmQsF4y8jCj69fxuux3L70ySS96FlqtjJR/Q1Sm/hxryAc2XolYu9lebBu+Filb6Zha7Twpm3Jsga/X2bJY3+kRHpv/MDqa2mvBFln/fEVa8Dj+9+tdc9OzdIxiTjs4B2KzhOnNyv115XGKmYfXbOXmAO2c6V/zdKdJY6NlvAImBvxqVn61FHxwtXBPRkY7TDu1ZCrWXruRtw89rrz8dwsTfpyszN8qrZ51LRqWxP19jYVtKt7oybS5hz/rJjVFFZE2vyBj7TV0LZU2mpLow9VP3w4KKm0rclypI0R23vSxi6pL52abMGftVHbMYa1Zd7eWltj7p4EoMPiCwUnHU3hL9zoIQTPNdosdKPnb0R87L3roSNaw354afYeiMOWObstMXHu+PNCXgFhL9iLoekMCFrwWie/qrvlIFCTs2pNc4HaQQv7SWSutUqkXiIq7Zp0oxOp7doq06Qn4QUP3V2Gi/+BPeA7CBek4N1nMGKBBO8wvgf4RXDox5D0b4j5QshW+Qu0N0JbjJ73rGNXbj0D+4MtHh5k/kK55g50yMp16Qvy0Zd2dhSBHL8qVE06sKsVae9oz0NMloX2R0KWFsuWC5G/05hyb64ZuCY90phimtXYn5C1xGdaSgKxZVH8oIMYNZ0v3lOD/+wkN1OTTL4WApNMtCQ1yeQsAZNMqpo3/XebVPTQSacCX+5P3pCWCv3JKWUZYEfCRTU6aYkPTDoTOkPsr+yjK+Wb0q3aWYnxAgb9hGDDWuFowO/qLVY4IineQE8n/XLDqmUDftJIjl5YpnDIY8DvD6jF4Ntw3Q1emLAnNyTcwqUn0oeG+NDuYJtweEsLv4CgRGH72NLwWoLjA2UjEu4t1d7iA25n8idqijXnZMhDiRe4yrPHHIGbNNZ6t2BPW1jMuJUOn89ccJ4AxoxZqRJw/Q450/qD25IZdAl7ScQ2RmDRyRn3tryBYtwELXeMmxi2VZT7LdkJzBPGDdQnQH34d7RwM+c3F5Y5MyOHmwsvu28m5cTLbtgPvDIrv7/hMPZGDh6SmOy82d73eV0R3NV44arhVqwFjVkJL9aEptiP7TEm/ddVoI2z7/qGitGAHoqx+tyA/n64mbZzNKb+iRfZhES7Nj4gJYV2i9OnJMNQ8+tA7PeM0zNXeWXykYj2JSV4BG/hhmtmqM5POFZiaKXIe7PaOmWnXJUnmxf0jpX11bjKLd42Vlmaigbv56cr05vqD9J7k9Uz/DT4wbVpTerKuKF6GCdJYov0G2mSZN9NeMCAAQMG/KP4AwBmOCw/tR9mAAAAAElFTkSuQmCC" alt="" /></h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem reprehenderit minima itaque sint, vero dolore blanditiis dignissimos fuga quasi quos.</p>
+                        <span className='x1'><img src="https://uicookies.com/demo/theme/instant/assets/images/persons/person_1.jpg" alt="" /></span>
+                        <h5>Garry Alexander</h5>
+                        <h5>@garry</h5>
+                    </div>
+                    <div>
+                    <h4><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAB6CAMAAABHh7fWAAAAZlBMVEX///8AAADo6Ojw8PDKysrr6+v7+/vz8/P4+PhISEjW1tZ8fHzOzs4pKSkaGhrDw8M7Ozvi4uKmpqaWlpY2NjZ0dHRtbW0gICBkZGTc3NyFhYWQkJCzs7Otra28vLxRUVEMDAxcXFwtbe9+AAAEuUlEQVRoge1a29qiMAzkICIqntDf4y/6/i+5gqI0TZqJe7X7MffDtGk6SUujaMCAAQMG/GfIs+SBLMvNzHH6pKaTb3Szzay4xQ0Wxa5aWr6xrA5ly4zL+2lztOlOLkVMUFzXEHV9psz4NMIHPvKE2ynMEpWZVwuOWlywRRvvOHYLTXy+lZjlBlA+ivQGVSh2mxBztdSUp2WIH8e1vOT+Krs4h5UThf7ARaBWKrMIrVfKJhhBxVKXALOcytIzgM9rJ8pCPbEQtZGRN2BW7YAxRW0k3C28ec9R5oJfb5gfx3TwshdQ1GNO+geXLt09luHMeMYor6FMeeHgUINmQsF4y8jCj69fxuux3L70ySS96FlqtjJR/Q1Sm/hxryAc2XolYu9lebBu+Filb6Zha7Twpm3Jsga/X2bJY3+kRHpv/MDqa2mvBFln/fEVa8Dj+9+tdc9OzdIxiTjs4B2KzhOnNyv115XGKmYfXbOXmAO2c6V/zdKdJY6NlvAImBvxqVn61FHxwtXBPRkY7TDu1ZCrWXruRtw89rrz8dwsTfpyszN8qrZ51LRqWxP19jYVtKt7oybS5hz/rJjVFFZE2vyBj7TV0LZU2mpLow9VP3w4KKm0rclypI0R23vSxi6pL52abMGftVHbMYa1Zd7eWltj7p4EoMPiCwUnHU3hL9zoIQTPNdosdKPnb0R87L3roSNaw354afYeiMOWObstMXHu+PNCXgFhL9iLoekMCFrwWie/qrvlIFCTs2pNc4HaQQv7SWSutUqkXiIq7Zp0oxOp7doq06Qn4QUP3V2Gi/+BPeA7CBek4N1nMGKBBO8wvgf4RXDox5D0b4j5QshW+Qu0N0JbjJ73rGNXbj0D+4MtHh5k/kK55g50yMp16Qvy0Zd2dhSBHL8qVE06sKsVae9oz0NMloX2R0KWFsuWC5G/05hyb64ZuCY90phimtXYn5C1xGdaSgKxZVH8oIMYNZ0v3lOD/+wkN1OTTL4WApNMtCQ1yeQsAZNMqpo3/XebVPTQSacCX+5P3pCWCv3JKWUZYEfCRTU6aYkPTDoTOkPsr+yjK+Wb0q3aWYnxAgb9hGDDWuFowO/qLVY4IineQE8n/XLDqmUDftJIjl5YpnDIY8DvD6jF4Ntw3Q1emLAnNyTcwqUn0oeG+NDuYJtweEsLv4CgRGH72NLwWoLjA2UjEu4t1d7iA25n8idqijXnZMhDiRe4yrPHHIGbNNZ6t2BPW1jMuJUOn89ccJ4AxoxZqRJw/Q450/qD25IZdAl7ScQ2RmDRyRn3tryBYtwELXeMmxi2VZT7LdkJzBPGDdQnQH34d7RwM+c3F5Y5MyOHmwsvu28m5cTLbtgPvDIrv7/hMPZGDh6SmOy82d73eV0R3NV44arhVqwFjVkJL9aEptiP7TEm/ddVoI2z7/qGitGAHoqx+tyA/n64mbZzNKb+iRfZhES7Nj4gJYV2i9OnJMNQ8+tA7PeM0zNXeWXykYj2JSV4BG/hhmtmqM5POFZiaKXIe7PaOmWnXJUnmxf0jpX11bjKLd42Vlmaigbv56cr05vqD9J7k9Uz/DT4wbVpTerKuKF6GCdJYov0G2mSZN9NeMCAAQMG/KP4AwBmOCw/tR9mAAAAAElFTkSuQmCC" alt="" /></h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem reprehenderit minima itaque sint, vero dolore blanditiis dignissimos fuga quasi quos.</p>
+                        <span className='x1'><img src="https://uicookies.com/demo/theme/instant/assets/images/persons/person_5.jpg" alt="" /></span>
+                        <h5>Deborah Smith</h5>
+                        <h5>@deborah</h5>
+                    </div>
+                    <div>
+                    <h4><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAB6CAMAAABHh7fWAAAAZlBMVEX///8AAADo6Ojw8PDKysrr6+v7+/vz8/P4+PhISEjW1tZ8fHzOzs4pKSkaGhrDw8M7Ozvi4uKmpqaWlpY2NjZ0dHRtbW0gICBkZGTc3NyFhYWQkJCzs7Otra28vLxRUVEMDAxcXFwtbe9+AAAEuUlEQVRoge1a29qiMAzkICIqntDf4y/6/i+5gqI0TZqJe7X7MffDtGk6SUujaMCAAQMG/GfIs+SBLMvNzHH6pKaTb3Szzay4xQ0Wxa5aWr6xrA5ly4zL+2lztOlOLkVMUFzXEHV9psz4NMIHPvKE2ynMEpWZVwuOWlywRRvvOHYLTXy+lZjlBlA+ivQGVSh2mxBztdSUp2WIH8e1vOT+Krs4h5UThf7ARaBWKrMIrVfKJhhBxVKXALOcytIzgM9rJ8pCPbEQtZGRN2BW7YAxRW0k3C28ec9R5oJfb5gfx3TwshdQ1GNO+geXLt09luHMeMYor6FMeeHgUINmQsF4y8jCj69fxuux3L70ySS96FlqtjJR/Q1Sm/hxryAc2XolYu9lebBu+Filb6Zha7Twpm3Jsga/X2bJY3+kRHpv/MDqa2mvBFln/fEVa8Dj+9+tdc9OzdIxiTjs4B2KzhOnNyv115XGKmYfXbOXmAO2c6V/zdKdJY6NlvAImBvxqVn61FHxwtXBPRkY7TDu1ZCrWXruRtw89rrz8dwsTfpyszN8qrZ51LRqWxP19jYVtKt7oybS5hz/rJjVFFZE2vyBj7TV0LZU2mpLow9VP3w4KKm0rclypI0R23vSxi6pL52abMGftVHbMYa1Zd7eWltj7p4EoMPiCwUnHU3hL9zoIQTPNdosdKPnb0R87L3roSNaw354afYeiMOWObstMXHu+PNCXgFhL9iLoekMCFrwWie/qrvlIFCTs2pNc4HaQQv7SWSutUqkXiIq7Zp0oxOp7doq06Qn4QUP3V2Gi/+BPeA7CBek4N1nMGKBBO8wvgf4RXDox5D0b4j5QshW+Qu0N0JbjJ73rGNXbj0D+4MtHh5k/kK55g50yMp16Qvy0Zd2dhSBHL8qVE06sKsVae9oz0NMloX2R0KWFsuWC5G/05hyb64ZuCY90phimtXYn5C1xGdaSgKxZVH8oIMYNZ0v3lOD/+wkN1OTTL4WApNMtCQ1yeQsAZNMqpo3/XebVPTQSacCX+5P3pCWCv3JKWUZYEfCRTU6aYkPTDoTOkPsr+yjK+Wb0q3aWYnxAgb9hGDDWuFowO/qLVY4IineQE8n/XLDqmUDftJIjl5YpnDIY8DvD6jF4Ntw3Q1emLAnNyTcwqUn0oeG+NDuYJtweEsLv4CgRGH72NLwWoLjA2UjEu4t1d7iA25n8idqijXnZMhDiRe4yrPHHIGbNNZ6t2BPW1jMuJUOn89ccJ4AxoxZqRJw/Q450/qD25IZdAl7ScQ2RmDRyRn3tryBYtwELXeMmxi2VZT7LdkJzBPGDdQnQH34d7RwM+c3F5Y5MyOHmwsvu28m5cTLbtgPvDIrv7/hMPZGDh6SmOy82d73eV0R3NV44arhVqwFjVkJL9aEptiP7TEm/ddVoI2z7/qGitGAHoqx+tyA/n64mbZzNKb+iRfZhES7Nj4gJYV2i9OnJMNQ8+tA7PeM0zNXeWXykYj2JSV4BG/hhmtmqM5POFZiaKXIe7PaOmWnXJUnmxf0jpX11bjKLd42Vlmaigbv56cr05vqD9J7k9Uz/DT4wbVpTerKuKF6GCdJYov0G2mSZN9NeMCAAQMG/KP4AwBmOCw/tR9mAAAAAElFTkSuQmCC" alt="" /></h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem reprehenderit minima itaque sint, vero dolore blanditiis dignissimos fuga quasi quos.</p>
+                        <span className='x1'><img src="https://uicookies.com/demo/theme/instant/assets/images/persons/person_2.jpg" alt="" /></span>
+                        <h5>James Robertson</h5>
+                        <h5>@james</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    )
+}
+
+export default FeedBack

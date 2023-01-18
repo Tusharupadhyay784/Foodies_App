@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu_heading{
+  margin-top: 18em;
+    height: 165vh;
+    /* border: 2px solid black; */
+}
+.menu_heading > h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    letter-spacing: .5rem;
+}
+.btn_box{
+  
+    margin-top: 2em;
+    text-align: center;
+}
+.btn1,.btn2,.btn3{
+  letter-spacing: .3em;
+}
+.menu_box{
+    
+    /* border: 2px solid brown; */
+    margin-top: 2em;
+    margin-left: 4em;
+    flex-wrap: wrap;
+    /* line-height: .1em; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 38em;
+
+    
+}
+.before{
+  /* border: 2px solid blue; */
+  /* margin: 4em; */
+    text-align: left;
+    /* margin: 0 auto; */
+
+}
+/* below part is for animation dont touch it i warn you */
+@-webkit-keyframes fadeIn  {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.fadeIn,.fadeIn2,.fadeIn3 {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.animated,.animated2,.animated3 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/* upper part is for animation dont touch it i warn you */
+
+.menu_sub_box > h3{
+    font-weight: 900;
+    margin-bottom: -1.5em;
+  }
+  .menu_sub_box > p{
+    color: rgb(88, 88, 88);
+}
+
+.menu_image_before{
+  display: flex;
+  /* border: 2px solid red; */
+  margin-top: 8em !important;
+
+  height: 60vh;
+  
+  background-image: url('/public/assest/2.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-top: 4em;  
+  
+}
+
+.menu_image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  margin: auto;
+  color: white;
+  
+  /* border: 2px solid brown; */
+}
+.menu_image > h2{
+  /* border: 2px solid blue; */
+  
+  font-size: 4em;
+}
+.menu_image > p{
+  width: 25em;
+  margin-top: 2em;
+  font-weight: bolder;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

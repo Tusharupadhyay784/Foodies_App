@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar_before {
+    height: 95vh;
+    background-image: url('/public/assest/1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.scrolls {
+    position: fixed;
+    /* background-color: rgb(169, 212, 212); */
+    
+    
+    z-index: 999;
+}
+.scrolls > ul > li:hover{
+    font-weight: bolder;
+    color: black;
+}
+
+/* .navbar_before::before {
+
+    content: "";
+    position: absolute;
+    top: 4em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    opacity: .5;
+
+
+} */
+
+.navbar {
+
+    width: 100vw;
+    height: 80vh;
+    /* border: 2px solid black; */
+
+
+
+}
+
+.navbar_section {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    /* position:fixed; */
+    /* you have to navbar fixed and make a javascript code having a class with in it and make a logic to make a navbar in good condition */
+    width: 100vw;
+    height: 10vh;
+}
+
+.navbar_section>ul {
+    display: flex;
+    list-style: none;
+    /* border: 2px solid green; */
+
+    margin: 12px;
+    padding: 12px;
+
+    width: 44em;
+}
+
+.navbar_section>ul>li {
+    display: flex;
+    /* border: 2px solid blue; */
+    color: white;
+    width: 32em;
+    align-items: center;
+    font-size: large;
+    height: 1em;
+    margin: 12px;
+    cursor: pointer;
+
+}
+
+.navbar_button {
+    /* border: 2px solid teal; */
+    align-self: center;
+    /* border: 2px solid black; */
+
+    width: 20em;
+}
+
+.navbar_button>button {
+    margin: 12px;
+    width: 8em;
+}
+
+/* icon */
+.icon {
+    /* border: 2px solid blue; */
+    height: 100px;
+
+
+}
+
+.icon>img {
+    /* border: 2px solid teal; */
+    height: 12em;
+    margin: 0 auto;
+    position: relative;
+    top: -2.3em;
+    border-radius: 50%;
+    /* filter: invert(); */
+}
+
+/* Heading */
+
+.navbar_heading {
+    /* border: 2px solid brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    color: white;
+}
+
+.navbar_heading>h1 {
+
+    align-self: center;
+    font-size: 6em;
+}
+
+.navbar_heading>p {
+    align-self: center;
+    font-weight: bold;
+
+    font-size: 1.2em;
+    letter-spacing: .2rem;
+    /* border: 2px solid green; */
+    /* padding: 20em; */
+    width: 50vw;
+    text-align: center;
+}
+
+.navbar_last_button {
+    /* border: 2px solid magenta; */
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}

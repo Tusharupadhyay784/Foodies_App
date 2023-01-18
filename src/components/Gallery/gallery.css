@@ -1,0 +1,133 @@
+@import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+.befor_hello {
+    
+    display: flex;
+    /* border: 120px solid brown !important; */
+    height: 100vh !important;
+    width: 100vw;
+    
+    background-color: #efefef;
+}
+
+.hello {
+    /* margin-top: 4em; */
+    height: 70vh;
+    /* border: 2px solid brown !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: -999 !important; */
+}
+.carou{
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid teal !important; */
+    height: 65vh;
+    
+    margin-left: .01em;
+    flex-grow: 1;
+    
+    margin: 2em;
+    width: 70vw;
+    /* z-index: -999 !important; */
+}
+.slider{
+    display: flex;
+    
+    /* border: 12px solid crimson !important; */
+    /* padding: 3em !important; */
+    height: 75vh !important;
+    margin-top: 2em !important;
+    
+    /* width: 20vw !important; */
+    /* z-index: -999 !important; */
+    
+}
+.slide{
+    /* border: 2px solid seagreen !important; */
+
+    display: flex;
+    align-items: center !important;
+    align-self: flex-start !important; 
+    /* background-color: #efefef; */
+    border-radius: 1em;
+    width: 14vw;
+    height: 64vh;
+    /* width: 30vw !important; */
+    margin-right: .2em !important;
+    
+    /* z-index: -999 !important; */
+}
+
+.slider > li{
+    display: flex;
+    /* height: 60vh; */
+    
+    /* align-items: center; */
+    justify-content: center;
+    /* border: 2px solid brown !important; */
+    /* z-index: -999 !important; */
+}
+ 
+.animated{
+    /* border: 2px solid magenta !important;     */
+    
+    
+    
+    /* z-index: 999; */
+    
+    object-fit: contain;
+    /* height: 40vh; */
+    text-align: center !important;
+    width: 30vw !important;
+    
+    
+    
+    gap: 5em;
+    
+}
+.image{
+    display: flex;
+    
+    /* border: 2px solid blue; */
+    /* height: auto; */
+    /* text-align: center; */
+    /* width: 100vw !important; */
+    border-radius: 1.5em;
+    /* line-height: auto; */
+/* margin: 12em; */
+    /* object-fit: contain; */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .3);
+    z-index: -999 !important;
+    
+}
+div > p{
+    margin-top: 2em;
+    /* border: 2px solid black; */
+    text-align: center;
+    /* overflow: hidden; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

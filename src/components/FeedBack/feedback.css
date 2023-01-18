@@ -1,0 +1,88 @@
+.feed_heading{
+    display: flex;
+    height: 90vh;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 15em;
+    border-bottom-left-radius: 15em;
+    border-bottom-right-radius: 15em;
+    background: #E7F0FF;
+}
+.feed_data{
+    height: 80vh;
+    display: flex;
+    /* border: 2px solid brown; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+.feed_data > h2{
+    width: inherit;
+    text-align: center;
+    font-size: 4em;
+    align-self: center;
+    text-transform: uppercase;
+    /* border: 2px solid violet; */
+    margin-bottom: .1em;
+}
+
+.feed_blocks{
+    height: 60vh;
+    display: flex;
+    /* border: 2px solid teal; */
+    
+}
+.feed_blocks > div{
+    /* border: 2px solid salmon; */
+    margin: 3em;
+    padding:3em;
+    height: 60vh;
+}
+/* .feed_blocks > div > span{ */
+    
+    /* height: 80%;
+    width: 100px; */
+    /* border: 2px solid seagreen; */
+/* } */
+.feed_blocks > div > span > img{ 
+
+    width:40%;
+    height: 25%;
+    /* border: 2px solid turquoise; */
+    object-fit:fill;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.feed_blocks > div > h5{
+    /* border: 2px solid tomato; */
+    text-align: center;
+    margin: 2px;
+}
+.feed_blocks > div > h4{
+    /* border: 2px solid brown; */
+    margin-top:-2em;
+    font-size: 1em;
+    /* text-align: center; */
+    background-color: #E7F0FF;
+   
+    
+
+}
+.feed_blocks > div > h4 > img{
+    text-align: center;
+    /* border: 2px solid black; */
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    /* filter: invert(); */
+}
+
+.feed_blocks > div > p{
+    /* border: 2px solid teal; */
+    margin-bottom: 2em;
+    /* width: 20vw; */
+
+}

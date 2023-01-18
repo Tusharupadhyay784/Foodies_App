@@ -1,0 +1,36 @@
+.foot_heading{
+    /* border: 2px solid black; */
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa !important;
+}
+.foot_data{
+    /* border: 2px solid teal; */
+    width: 99vw;
+    
+}
+.foot_data > div{
+    display: flex;
+    /* border: 2px solid lime; */
+    width: 15vw;
+    margin: 0 auto;
+    
+}
+.foot_data > div > svg{
+    height: 3vh;
+    width: 3vw;
+    /* border: 2px solid burlywood; */
+    margin: 0 auto;   
+    transition: all .3s ease-in;
+}
+#four:hover{
+    color: red;
+}
+#three:hover{
+    color: palevioletred;
+}
+.foot_data > div > svg:hover{
+    color:#1d82ff;
+}
