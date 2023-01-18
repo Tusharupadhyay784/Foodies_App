@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div className='navbar_before '>
       <div className='navbar'>
-      <div className={`navbar_section scrolls`}>
+      <div className={`navbar_section`}>
           <ul>
             <li>Home</li>
             <li>About</li>
