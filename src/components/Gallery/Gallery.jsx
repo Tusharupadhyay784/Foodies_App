@@ -7,7 +7,7 @@ import { Carousel } from 'react-responsive-carousel'
 const Gallery = () => {
 
   return (
-    <div style={{ height: '110vh', marginTop: "-6em" }} className="before_hello">
+    <div style={{ height: '110vh', marginTop: "-6em" }} className="before_hello" id='four'>
       <h1 style={{ textAlign: 'center', fontSize: "4em" }}>GALLERY</h1>
       <div className="hello">
         <Compo />

@@ -2,7 +2,7 @@ import React from 'react'
 import './events.css'
 const Events = () => {
     return (
-        <div className='event_heading'>
+        <div className='event_heading' id='five'>
             <h2>EVENTS</h2>
             <div className='event_blocks'>
                 <div>

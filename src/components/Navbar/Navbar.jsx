@@ -3,33 +3,20 @@ import "./navbar.css"
 import { Button } from '@chakra-ui/react'
 
 const Navbar = () => {
-  // console.log(document.body.scrollTop || document.documentElement.scrollTop)
 
-  // window.onscroll = function(){
-  //   let currscrollposi = document.body.scrollTop || document.documentElement.scrollTop;
-  //   if(currscrollposi)console.log(currscrollposi)
-  // }
-  // const excss = {
-  //     position:'fixed',
-  //     backgroundColor:'gray',
-  //     zIndex:999,
-
-  // }
-  
-  
-  
-  
   return (
-    <div className='navbar_before '>
+    <div className='navbar_before' id='one'>
       <div className='navbar'>
-      <div className={`navbar_section`}>
+        <div className={`navbar_section`}>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Menu</li>
-            <li>Gallery</li>
-            <li>Events</li>
-            <li>Contact Us</li>
+            <div>
+              <a href="#one">  <li>Home</li></a>
+              <a href="#id2"><li>About</li></a>
+              <a href="#id"><li>Menu</li></a>
+              <a href="#four"><li>Gallery</li></a>
+              <a href="#five"><li>Events</li></a>
+              <a href="#six"><li>Contact Us</li></a>
+            </div>
           </ul>
           <div className="navbar_button ">
             <Button id='btn1'>Log In</Button>

@@ -20,11 +20,12 @@
 .scrolls {
     position: fixed;
     /* background-color: rgb(169, 212, 212); */
-    
-    
+
+
     z-index: 999;
 }
-.scrolls > ul > li:hover{
+
+.scrolls>ul>a>li:hover {
     font-weight: bolder;
     color: black;
 }
@@ -55,6 +56,7 @@
 
 .navbar_section {
     display: flex;
+    /* flex-direction: column; */
     justify-content: space-between;
     /* border: 2px solid red; */
     /* position:fixed; */
@@ -65,20 +67,29 @@
 
 .navbar_section>ul {
     display: flex;
+    flex-direction: column;
     list-style: none;
     /* border: 2px solid green; */
-
+    /* width: max-content; */
     margin: 12px;
     padding: 12px;
-
-    width: 44em;
+    height: max-content;
+    /* width: 44em; */
 }
 
-.navbar_section>ul>li {
+.navbar_section>ul>div {
+
     display: flex;
+    width: max-content;
+    /* border: 2px solid black; */
+}
+
+.navbar_section>ul>div>a>li {
+    display: flex;
+    /* flex-direction: column; */
     /* border: 2px solid blue; */
     color: white;
-    width: 32em;
+    /* width: 32em; */
     align-items: center;
     font-size: large;
     height: 1em;

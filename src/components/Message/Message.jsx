@@ -4,7 +4,7 @@ import { Button } from '@chakra-ui/react'
 
 const Message = () => {
   return (
-    <div className='message_container'>
+    <div className='message_container' id='six'>
       <div className='message_data'>
         <div className='message_feed'>
           <h2>WRITE US</h2>
